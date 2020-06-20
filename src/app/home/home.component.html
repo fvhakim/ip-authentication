@@ -1,0 +1,9 @@
+﻿<h2>Hi {{currentUser.firstName}} {{currentUser.lastName}}!</h2>
+<p></p>
+<h5><b>Your username:</b> {{currentUser.username}}</h5>
+<h5><b>Your Okta user ID:</b> {{currentUser.id}}</h5>
+<h5><b>Your Session Token:</b> </h5> <h6>{{currentUser.sessionToken}}</h6>
+
+<p></p>
+
+<a class="btn btn-primary" [routerLink]="['/login']">Logout</a>
